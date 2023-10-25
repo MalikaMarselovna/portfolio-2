@@ -150,14 +150,44 @@ section {
 	padding: 12px 24px;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
+	gap: 5px;
+	border: 5px;
 	border-radius: 118px;
 	border: 1.5px solid var(--neutral-07, #2C2F24);
 }
 
+
 .btn:hover {
 	background: #2C2F24;
-	color:#fff
+	color: #fff
+}
+
+.menu a {
+	color: var(--neutral-07, #2C2F24);
+
+	/* Body/16px/Medium */
+	font-family: "DM Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	/* 150% */
+	display: inline-flex;
+	padding: 4px 16px;
+	margin-right: 8px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 34px;
+	transition: 0.5s;
+}
+
+.menu li:last-child a {
+	margin-right: 0;
+}
+
+.menu a :hover {
+	background: #DBDFD0;
 }
 
 .link {
@@ -174,3 +204,7 @@ section {
 }
 
 /* header */
+.head {
+	padding: 20px 0;
+	align-items: center;
+}
