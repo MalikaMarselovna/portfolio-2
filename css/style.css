@@ -72,7 +72,8 @@ textarea {
 }
 
 body {
-	color: #414536 font-family: "DM Sans", arial;
+	color: #414536;
+	font-family: "DM Sans", arial;
 	font-size: 18px;
 	line-height: 28px;
 	/* 155.556% */
@@ -99,22 +100,23 @@ section {
 	color: var(--neutral-07, #2C2F24);
 	text-align: center;
 
-	/* Headline/H2 */
+	/* Headline/H1 */
 	font-family: Playfair Display;
-	font-size: 55px;
+	font-size: 100px;
 	font-style: normal;
-	line-height: 96px;
 	font-weight: 400;
-	line-height: 60.5px;
-	/* 110% */
-	margin-bottom: 20px;
-
+	line-height: 96px;
+	/* 96% */
 }
 
+
 .sec_desc {
+	padding-top: 32px;
 	color: var(--neutral-06, #495460);
+	min-width: 660px;
 	text-align: center;
 	font-style: normal;
+	margin: 0 auto 40px;
 
 	/* 155.556% */
 }
@@ -204,31 +206,85 @@ section {
 }
 
 .main {
-	background-image: url(main.jpg);
-	height: 100vh;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: url(/img/icons/main.jpg) center no-repeat;
+
 }
 
-.button {
-	color: var(--neutral-07, #182226);
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.btn1 {
+	display: flex;
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 118px;
+	font-family: "DM Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	border: 1px solid #050505;
+	transition: 0.5s;
+	margin: 0 8px;
+
+}
+
+.btn2 {
+	display: flex;
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 	text-align: right;
+	color: #171212;
+	cursor: pointer;
 
 	/* Body/16px/Bold */
-	font-family: DM Sans;
+	font-family: "DM Sans";
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 24px;
 	/* 150% */
-	display: inline-flex;
-	padding: 12px 24px;
-	justify-content: center;
-	align-items: center;
-	gap: 5px;
-	border: 5px;
 	border-radius: 118px;
-	border: 1.5px solid var(--neutral-07, #2C2F24);
+	border: 1px solid #050505;
+	transition: 0.5s;
+	margin: 0 8px;
+
 
 }
-	
+
+.btn1:hover,
+.btn2:hover {
+	background: #AD343E;
+	color: var(--neutral-01, #FFF);
+}
+
+.br_tit {
+	padding-top: 50px;
+	color: var(--neutral-07, #2C2F24);
+	text-align: center;
+
+	/* Headline/H2 */
+	font-family: "Playfair Display";
+	font-size: 55px;
+	font-style: normal;
+	line-height: 96px;
+	font-weight: 400;
+	line-height: 60.5px;
+	/* 110% */
+	margin-bottom: 32px;
+}
+
+.main .sec_tit {
+	max-width: 660px;
+	margin: 0 auto 32px;
+
+
+}
+
+.card {}
