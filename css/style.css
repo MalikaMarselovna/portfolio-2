@@ -476,6 +476,15 @@ section {
 .offer .sec_sub-tit {
 	max-width: 675px;
 	margin-bottom: 57px;
+	color: var(--neutral-07, #2C2F24);
+
+	/* Headline/H2 */
+	font-family: Playfair Display;
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.5px;
+	/* 110% */
 }
 
 .offer_card {
@@ -521,5 +530,18 @@ section {
 	line-height: 24px;
 	/* 150% */
 	padding-left: 10px;
+
+}
+
+.fastest_food .sec_sub-tit {
+	color: var(--neutral-07, #2C2F24);
+
+	/* Headline/H2 */
+	font-family: Playfair Display;
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.5px;
+	/* 110% */
 
 }
