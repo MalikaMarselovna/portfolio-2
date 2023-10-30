@@ -342,19 +342,19 @@ section {
 }
 
 .browse_card__1 .browse_ic {
-	border-image: url(/img/tea\ 1.svg);
+	border-image: url(/img/icons/tea.svg);
 }
 
 .browse_card__2 .browse_ic {
-	border-image: url(/img/icon.svg);
+	border-image: url(/img/icons/icon.svg);
 }
 
 .browse_card__3 .browse_ic {
-	border-image: url(/img/icon1.svg);
+	border-image: url(/img/icons/icon1.svg);
 }
 
 .browse_card__4 .browse_ic {
-	border-image: url(/img/icon2.svg);
+	border-image: url(/img/icons/icon2.svg);
 }
 
 
@@ -385,6 +385,7 @@ section {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	z-index: index auto;
 }
 
 .about_img {
