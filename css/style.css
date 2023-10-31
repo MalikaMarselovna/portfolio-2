@@ -590,6 +590,14 @@ section {
 	line-height: 26px;
 	/* 130% */
 
-}.fastest_food .icons{
+}
+.fastest_food .icons{
+	
+}
 
+
+.provide_l2{
+	align-items: stretch;
+	padding-top: 27px 5px;
+	margin-bottom:  24px 5px;
 }
