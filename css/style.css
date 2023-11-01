@@ -669,12 +669,17 @@ section {
 	width: 70px;
 	height: 70px;
 }
+.our_customer{
+	justify-content: flex-start;
+}
 
 .our_info {
 	padding-left: 35px;
 }
 .our_name {
+
 	color: var(--neutral-07, #2C2F24);
+	display: block;
 
 	/* Body/16px/Bold */
 	font-family: "DM Sans";
