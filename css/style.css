@@ -398,7 +398,7 @@ section {
 	color: var(--neutral-07, #2C2F24);
 
 	/* Headline/H2 */
-	font-family: Playfair Display;
+	font-family: "Playfair Display";
 	font-size: 55px;
 	font-style: normal;
 	font-weight: 500;
@@ -608,6 +608,7 @@ section {
 
 /*our*/
 .card {
+	padding: 45px 35px 35px;
 	width: calc((100% - 48px) / 3);
 	border-radius: 12px;
 	background: var(--neutral-02, #F9F9F7);
@@ -629,8 +630,7 @@ section {
 }
 
 .our_tit {
-	padding-top: 45px;
-	padding-left: 35px;
+
 	align-items: center;
 	color: #AD343E;
 
@@ -646,7 +646,7 @@ section {
 }
 
 .our_txt {
-	padding-left: 35px;
+
 	align-items: center;
 	max-width: 346px;
 	color: var(--neutral-06, #414536);
@@ -665,17 +665,19 @@ section {
 
 
 .our_img {
-	padding-left: 35px;
+
 	width: 70px;
 	height: 70px;
 }
-.our_customer{
+
+.our_customer {
 	justify-content: flex-start;
 }
 
 .our_info {
 	padding-left: 35px;
 }
+
 .our_name {
 
 	color: var(--neutral-07, #2C2F24);
@@ -695,10 +697,8 @@ section {
 	color: var(--neutral-06, #414536);
 
 	/* Body/16px/Regular */
-	font-family: DM Sans;
+	font-family: "DM Sans";
 	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
 	line-height: 24px;
 	/* 150% */
 
