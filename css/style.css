@@ -704,31 +704,9 @@ section {
 
 }
 
-.btn_red {
-	display: inline-flex;
-	padding: 20px 32px;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
-	border: 1px solid #050505;
-	border-radius: 118px;
-	background: #fff;
-	text-align: right;
-
-	/* Body/16px/Bold */
-	font-family: "DM Sans";
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px;
-	/* 150% */
-	cursor: pointer;
-	transition: 0.5s;
-}
-.btn_red:hover{
-	color: #AD343E;
-}
 
 /*blog*/
+
 .blog_top .sec_tit {
 	color: var(--neutral-07, #2C2F24);
 
@@ -741,6 +719,31 @@ section {
 	/* 110% */
 }
 
+.btn_red {
+	display: inline-flex;
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid #050505;
+	border-radius: 118px;
+	text-align: right;
+
+	/* Body/16px/Bold */
+	font-family: "DM Sans";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	/* 150% */
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.btn_red:hover {
+	background: #AD343E;
+	color: #DBDFD0;
+}
+
 .provide_right2 .blog_card {
 	width: 636px;
 	height: 732px;
@@ -750,14 +753,63 @@ section {
 	background: var(--neutral-01, #FFF);
 	cursor: pointer;
 	transition: 1s;
-
-
-
 }
 
-.provide_right2 .blog_card {
+.blog_date {
+	color: var(--neutral-05, #737865);
+
+	/* Body/16px/Medium */
+	font-family: "DM Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	/* 150% */
+}
+
+.blog_tit {
+	color: var(--neutral-07, #2C2F24);
+
+	/* Body/20px/Medium */
+	font-family: DM Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+	/* 130% */
+}
+
+.blog_txt {
+	color: var(--neutral-06, #414536);
+
+	/* Body/16px/Regular */
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+}
+
+.provide_right2 .blog_card:hover {
 	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
 
 }
 
-.provide_left2 {}
+
+.provide_left2 .blog_card {
+	width: 306px;
+	height: 354px;
+	flex-shrink: 0;
+	border-radius: 12px;
+	border: 1px solid var(--neutral-02, #F9F9F7);
+	background: var(--neutral-01, #FFF);
+	cursor: pointer;
+	transition: 0.5s;
+
+	/* 1 */
+}
+
+.provide_right2 .blog_card:hover {
+	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+}
