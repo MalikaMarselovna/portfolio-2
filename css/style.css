@@ -703,7 +703,38 @@ section {
 	/* 150% */
 
 }
+
+.btn_red {
+	display: flex;
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 118px;
+	background: #AD343E;
+	color: var(--neutral-01, #FFF);
+	text-align: right;
+
+	/* Body/16px/Bold */
+	font-family: "DM Sans";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	/* 150% */
+}
+
 /*blog*/
+.blog_top .sec_tit {
+	color: var(--neutral-07, #2C2F24);
+
+	/* Headline/H2 */
+	font-family: "Playfair Display";
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.5px;
+	/* 110% */
+}
 
 .provide_right2 .blog_card {
 	width: 636px;
