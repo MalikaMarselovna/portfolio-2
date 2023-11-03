@@ -706,7 +706,11 @@ section {
 
 
 /*blog*/
+.blog_top{
 
+	align-items: center;
+	margin-bottom: 64px;
+}
 .blog_top .sec_tit {
 	color: var(--neutral-07, #2C2F24);
 
@@ -754,7 +758,6 @@ section {
 	cursor: pointer;
 	transition: 1s;
 }
-
 .blog_date{
 	padding-top: 53px;
 	padding-left: 35px;
@@ -804,10 +807,14 @@ section {
 	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
 
 }
-
+.provide_left2{
+	padding-left: 24px;
+}
 
 .provide_left2 .blog_card {
-	width: 306px;
+	width: calc(50% - 12px);
+	flex: wrap;
+	width: 280px;
 	height: 354px;
 	flex-shrink: 0;
 	border-radius: 12px;
