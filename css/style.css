@@ -706,11 +706,12 @@ section {
 
 
 /*blog*/
-.blog_top{
+.blog_top {
 
 	align-items: center;
 	margin-bottom: 64px;
 }
+
 .blog_top .sec_tit {
 	color: var(--neutral-07, #2C2F24);
 
@@ -758,7 +759,8 @@ section {
 	cursor: pointer;
 	transition: 1s;
 }
-.blog_date{
+
+.blog_date {
 	padding-top: 53px;
 	padding-left: 35px;
 	color: var(--neutral-05, #737865);
@@ -779,7 +781,7 @@ section {
 	color: var(--neutral-07, #2C2F24);
 
 	/* Body/20px/Medium */
-	font-family: DM Sans;
+	font-family: "DM Sans";
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 500;
@@ -794,7 +796,7 @@ section {
 	color: var(--neutral-06, #414536);
 
 	/* Body/16px/Regular */
-	font-family: DM Sans;
+	font-family: "DM Sans";
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -807,8 +809,10 @@ section {
 	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
 
 }
-.provide_left2{
+
+.provide_left2 {
 	padding-left: 24px;
+
 }
 
 .provide_left2 .blog_card {
@@ -828,4 +832,92 @@ section {
 
 .provide_left2 .blog_card:hover {
 	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+	padding-top: 120px;
+	background: #474747;
+}
+
+.footer_copy {
+	padding: 30px 0 85px;
+	color: var(--neutral-04, #ADB29E);
+	/* Body/16px/Regular */
+	font-family: "DM Sans";
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	/* 150% */
+}
+
+.footer_big {
+	padding-bottom: 100px;
+	border-bottom: 1px solid #414536;
+
+
+}
+
+.footer_left {
+	width: 30%;
+}
+
+.footer_nav {
+	width: 17%;
+}
+
+.footer_right {
+	width: 35%;
+}
+
+.footer_tit {
+	color: #fff;
+}
+
+.footer_loge {}
+
+.footer_img {
+	width: calc((100% - 15px) / 2);
+	margin-bottom: 15px;
+	border-radius: 12px;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.footer_img img {
+	transition: 0.5s;
+}
+
+.footer_img:hover img {
+	transform: scale(1.2);
+
+}
+
+.footer_img::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #000;
+	opacity: 0;
+	z-index: 1;
+	transition: 0.5s;
+
+}
+
+.footer_img:hover::before {
+	opacity: 0.5;
+}
+
+li {
+	color: var(--neutral-03, #DBDFD0);
+	/* Body/16px/Regular */
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
 }
